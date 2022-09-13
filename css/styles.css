@@ -13,6 +13,8 @@
   --primary-btn-text: #212121;
   --secondary-btn-color: #ffffff;
 
+  --primary-border-color: #eeeeee;
+
   --main-text-color: #757575;
   --accent-color: #2196f3;
 
@@ -267,11 +269,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.member {
-  margin-bottom: 30px;
-}
-
-.member-wrap{
+.member-wrap {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -350,7 +348,9 @@ body {
 
 .title-wrap {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--primary-border-color);
+  border-right: 1px solid var(--primary-border-color);
+  border-left: 1px solid var(--primary-border-color);
 }
 
 .project-title {
